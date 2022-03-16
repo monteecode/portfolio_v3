@@ -170,27 +170,34 @@ header {
   .navbar {
     bottom: 0;
     width: 100vw;
-    height: 4rem;
+    height: 5rem;
+    transition: none;
   }
 
   .navbar-nav {
     flex-direction: row;
   }
 
+  .navbar:hover {
+    width: 100vw;
+  }
+
+  .navbar:hover .nav-text {
+    display: none;
+  }
+
   .nav-link {
     justify-content: center;
   }
+
+  /* .svg-inline--fa {
+    display: none;
+  } */
 
   main {
     margin: 0;
   }
 }
 
-/* @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
+@media screen and (max-width: 600px) {
+}
