@@ -1,15 +1,14 @@
-import React from 'react'
-import LeftPaneGift from './LeftPaneGift'
-import RightPaneGift from './RightPaneGift'
+import React from "react";
+import LeftPaneGift from "./LeftPaneGift";
+import RightPaneGift from "./RightPaneGift";
 
 const GiftContainer = () => {
-    return (
-        <section className="portfolio">
-            <LeftPaneGift />
-            <RightPaneGift />
-        </section>
+  return (
+    <section className="portfolio">
+      <LeftPaneGift />
+      <RightPaneGift />
+    </section>
+  );
+};
 
-    )
-}
-
-export default GiftContainer
+export default GiftContainer;
