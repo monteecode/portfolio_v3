@@ -1,17 +1,14 @@
-import React from 'react';
-import GiftContainer from './giftlist/GiftContainer'
-import CKContainer from './ck/CKContainer';
+import React from "react";
+import TotoContainer from "./toto/TotoContainer";
+import CKContainer from "./ck/CKContainer";
 
 const PortfolioContainer = () => {
+  return (
+    <>
+      <TotoContainer />
+      <CKContainer />
+    </>
+  );
+};
 
-    return (
-        <>
-            <GiftContainer />
-            <CKContainer />
-        </>
-
-    )
-
-}
-
-export default PortfolioContainer
+export default PortfolioContainer;

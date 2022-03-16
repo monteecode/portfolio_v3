@@ -1,12 +1,12 @@
 import React from "react";
-import LeftPaneGift from "./LeftPaneGift";
-import RightPaneGift from "./RightPaneGift";
+import LeftPaneText from "./LeftPaneText";
+import RightPaneImg from "./RightPaneImg";
 
 const GiftContainer = () => {
   return (
     <section className="portfolio">
-      <LeftPaneGift />
-      <RightPaneGift />
+      <LeftPaneText />
+      <RightPaneImg />
     </section>
   );
 };
