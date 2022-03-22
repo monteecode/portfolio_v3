@@ -189,7 +189,11 @@ header {
   height: auto;
 }
 
-@media screen and (max-width: 600px) {
+footer {
+  text-align: center;
+}
+
+@media screen and (max-width: 1030px) {
   .portfolio {
     flex-direction: column;
   }
@@ -226,10 +230,6 @@ header {
   .nav-link {
     justify-content: center;
   }
-
-  /* .svg-inline--fa {
-    display: none;
-  } */
 
   main {
     margin: 0;
