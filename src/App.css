@@ -196,15 +196,25 @@ footer {
 @media screen and (max-width: 1030px) {
   .portfolio {
     flex-direction: column;
+    padding: 40px 40px 0;
+  }
+
+  header h1 {
+    font-size: 4em;
   }
 
   .leftPane {
     position: relative;
+    margin: 0;
   }
 
   .leftPane,
   .rightPane {
     width: 100%;
+  }
+
+  .leftPane h1 {
+    font-size: 2em;
   }
 
   .navbar {
