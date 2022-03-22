@@ -1,12 +1,12 @@
 import React from "react";
 import TotoContainer from "./toto/TotoContainer";
-import CKContainer from "./ck/CKContainer";
+import FutureProjects from "./future/FutureProjects";
 
 const PortfolioContainer = () => {
   return (
     <>
       <TotoContainer />
-      <CKContainer />
+      <FutureProjects />
     </>
   );
 };
