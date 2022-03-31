@@ -28,7 +28,7 @@ const LeftPaneCK = (props) => {
         <li>Ruby on Rails</li>
         <li>Postgres</li>
       </ul>
-      <div>
+      <div className="projectBtns">
         <Button
           appLink={projectLinks.timekeeperreact.appLink}
           name={projectLinks.timekeeperreact.name}

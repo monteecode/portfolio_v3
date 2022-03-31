@@ -97,6 +97,8 @@
 
 button {
   border: none;
+  width: 250px;
+  margin: 5px;
   padding: 20px;
   color: white;
   background-color: var(--text-primary);
@@ -109,6 +111,12 @@ button:hover {
   background-color: white;
   color: var(--text-primary);
   border: 1px solid var(--text-primary);
+}
+
+.projectBtns {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
 }
 
 h1 {
