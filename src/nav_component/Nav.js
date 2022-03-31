@@ -11,19 +11,19 @@ const Nav = () => {
     <nav className="navbar">
       <ul className="navbar-nav">
         <li className="nav-item">
-          <a href="#" className="nav-link">
+          <a href="#home" className="nav-link">
             <FontAwesomeIcon icon={faHome} />
             <span className="nav-text">Home</span>
           </a>
         </li>
         <li className="nav-item">
-          <a href="#" className="nav-link">
+          <a href="#works" className="nav-link">
             <FontAwesomeIcon icon={faBriefcase} />
             <span className="nav-text">Works</span>
           </a>
         </li>
         <li className="nav-item">
-          <a href="#" className="nav-link">
+          <a href="#contact" className="nav-link">
             <FontAwesomeIcon icon={faAddressCard} />
             <span className="nav-text">Contact</span>
           </a>

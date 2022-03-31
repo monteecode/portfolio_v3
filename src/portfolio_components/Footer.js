@@ -4,7 +4,7 @@ import { faBriefcase, faAddressCard } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 const Footer = () => {
   return (
-    <footer>
+    <footer id="contact">
       <ul>
         <li>
           <a
