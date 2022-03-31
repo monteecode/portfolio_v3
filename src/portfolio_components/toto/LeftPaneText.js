@@ -1,6 +1,9 @@
 import React from "react";
 
 const LeftPaneGift = () => {
+  const handleClick = () => {
+    window.open("https://thetotoapp.herokuapp.com/");
+  };
   return (
     <div className="leftPane">
       <h1>The Toto App</h1>
@@ -32,7 +35,7 @@ const LeftPaneGift = () => {
         <li>Postgres</li>
         <li>Node.js</li>
       </ul>
-      <button>SEE LIVE WEBSITE</button>
+      <button onClick={handleClick}>SEE LIVE WEBSITE</button>
     </div>
   );
 };

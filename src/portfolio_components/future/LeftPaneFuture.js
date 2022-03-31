@@ -1,6 +1,9 @@
 import React from "react";
 
 const LeftPaneCK = () => {
+  const handleClick = () => {
+    window.open("https://github.com/monteecode/nutri-measure");
+  };
   return (
     <div className="leftPane">
       <h1>Projects In Current Development</h1>
@@ -13,7 +16,7 @@ const LeftPaneCK = () => {
         <li>Ruby on Rails</li>
         <li>Postgres</li>
       </ul>
-
+      <button onClick={handleClick}>Github Repo</button>
       <h2>Nutrimeasure</h2>
       <p>
         A user can look up how much nutrients are in a particular food item.
@@ -27,6 +30,9 @@ const LeftPaneCK = () => {
         <li>Node</li>
         <li>Postgres</li>
       </ul>
+      <button onClick={handleClick}>Github Repo</button>
+      https://github.com/monteecode/timekeeper_react
+      https://github.com/monteecode/TimeKeeper_API
     </div>
   );
 };
