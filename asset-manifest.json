@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/monteecode/portfolio_v3/static/css/main.ee766fe3.css",
+    "main.js": "/monteecode/portfolio_v3/static/js/main.24a8509a.js",
+    "static/media/nutrimeasure_722x450.jpg": "/monteecode/portfolio_v3/static/media/nutrimeasure_722x450.2190f57aef14a1c5b3ba.jpg",
+    "static/media/toto_atl_desc_580x450.png": "/monteecode/portfolio_v3/static/media/toto_atl_desc_580x450.c2dde9900c2cb5bb829a.png",
+    "static/media/toto_home_729x450.png": "/monteecode/portfolio_v3/static/media/toto_home_729x450.137aee40546655bda450.png",
+    "static/media/keyboard_2000x1125.jpg": "/monteecode/portfolio_v3/static/media/keyboard_2000x1125.1ffbc008245cec472dc4.jpg",
+    "static/media/toto_atl_weather_576x450.jpg": "/monteecode/portfolio_v3/static/media/toto_atl_weather_576x450.c6eea5a56a5a9c20c5a1.jpg",
+    "static/media/toto_atl_ess_729x450.jpg": "/monteecode/portfolio_v3/static/media/toto_atl_ess_729x450.2157abb9016eef43f8c5.jpg",
+    "static/media/timekeeper_729x450.jpg": "/monteecode/portfolio_v3/static/media/timekeeper_729x450.ec187725f912ad8e2690.jpg",
+    "index.html": "/monteecode/portfolio_v3/index.html",
+    "main.ee766fe3.css.map": "/monteecode/portfolio_v3/static/css/main.ee766fe3.css.map",
+    "main.24a8509a.js.map": "/monteecode/portfolio_v3/static/js/main.24a8509a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee766fe3.css",
+    "static/js/main.24a8509a.js"
+  ]
+}
