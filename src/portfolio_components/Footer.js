@@ -7,14 +7,18 @@ const Footer = () => {
     <footer>
       <ul>
         <li>
-          <a href="#" className="footer-link">
-            <FontAwesomeIcon icon={faAddressCard} />
+          <a
+            href="http://www.linkedin.com/in/montensia/"
+            className="footer-link"
+          >
+            <FontAwesomeIcon icon={faLinkedinIn} />
+
             <span className="nav-text">LinkedIn</span>
           </a>
         </li>
         <li>
-          <a href="#" className="footer-link">
-            <FontAwesomeIcon icon={faLinkedinIn} />
+          <a href="mailto:montensia@gmail.com" className="footer-link">
+            <FontAwesomeIcon icon={faAddressCard} />
             <span className="nav-text">Email</span>
           </a>
         </li>
