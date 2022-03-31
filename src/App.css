@@ -4,7 +4,7 @@
   --text-secondary: #ececec;
   --bg-primary: #000000;
   --bg-secondary: #141418;
-  --transition-speed: 600ms;
+  --transition-speed: 400ms;
 }
 
 /* @media screen and (min-width: 601px) { */
@@ -101,6 +101,7 @@ button {
   color: white;
   background-color: var(--text-primary);
   cursor: pointer;
+  border: 1px solid var(--text-primary);
   transition: background-color 500ms;
 }
 

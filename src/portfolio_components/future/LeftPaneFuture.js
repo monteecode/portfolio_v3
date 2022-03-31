@@ -28,11 +28,16 @@ const LeftPaneCK = (props) => {
         <li>Ruby on Rails</li>
         <li>Postgres</li>
       </ul>
-      <Button
-        appLink={projectLinks.timekeeperreact.appLink}
-        name={projectLinks.timekeeperreact.name}
-      />
-      {/* <button onClick={handleClick}>Github Repo</button> */}
+      <div>
+        <Button
+          appLink={projectLinks.timekeeperreact.appLink}
+          name={projectLinks.timekeeperreact.name}
+        />
+        <Button
+          appLink={projectLinks.timekeeperapi.appLink}
+          name={projectLinks.timekeeperapi.name}
+        />
+      </div>
       <h2>Nutrimeasure</h2>
       <p>
         A user can look up how much nutrients are in a particular food item.
@@ -47,7 +52,10 @@ const LeftPaneCK = (props) => {
         <li>Postgres</li>
       </ul>
       {/* <button onClick={handleClick}>Github Repo</button> */}
-      https://github.com/monteecode/TimeKeeper_API
+      <Button
+        appLink={projectLinks.nutrimeasure.appLink}
+        name={projectLinks.nutrimeasure.name}
+      />
     </div>
   );
 };
