@@ -1,9 +1,21 @@
 import React from "react";
-
-const LeftPaneCK = () => {
-  const handleClick = () => {
-    window.open("https://github.com/monteecode/nutri-measure");
+import Button from "../Button";
+const LeftPaneCK = (props) => {
+  const projectLinks = {
+    nutrimeasure: {
+      name: "Nutrimeasure Repo",
+      appLink: "https://github.com/monteecode/nutri-measure",
+    },
+    timekeeperreact: {
+      name: "Timekeeper React Repo",
+      appLink: "https://github.com/monteecode/timekeeper_react",
+    },
+    timekeeperapi: {
+      name: "Timekeeper API Repo",
+      appLink: "https://github.com/monteecode/TimeKeeper_API",
+    },
   };
+
   return (
     <div className="leftPane">
       <h1>Projects In Current Development</h1>
@@ -16,7 +28,11 @@ const LeftPaneCK = () => {
         <li>Ruby on Rails</li>
         <li>Postgres</li>
       </ul>
-      <button onClick={handleClick}>Github Repo</button>
+      <Button
+        appLink={projectLinks.timekeeperreact.appLink}
+        name={projectLinks.timekeeperreact.name}
+      />
+      {/* <button onClick={handleClick}>Github Repo</button> */}
       <h2>Nutrimeasure</h2>
       <p>
         A user can look up how much nutrients are in a particular food item.
@@ -30,8 +46,7 @@ const LeftPaneCK = () => {
         <li>Node</li>
         <li>Postgres</li>
       </ul>
-      <button onClick={handleClick}>Github Repo</button>
-      https://github.com/monteecode/timekeeper_react
+      {/* <button onClick={handleClick}>Github Repo</button> */}
       https://github.com/monteecode/TimeKeeper_API
     </div>
   );
