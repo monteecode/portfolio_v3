@@ -2,7 +2,7 @@ import React from "react";
 import LeftPaneText from "./LeftPaneText";
 import RightPaneImg from "./RightPaneImg";
 
-const GiftContainer = () => {
+const TotoContainer = () => {
   return (
     <section className="portfolio">
       <LeftPaneText />
@@ -11,4 +11,4 @@ const GiftContainer = () => {
   );
 };
 
-export default GiftContainer;
+export default TotoContainer;

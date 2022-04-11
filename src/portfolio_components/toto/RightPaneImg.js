@@ -4,7 +4,7 @@ import atlDesc from "../../img/portfolio/toto_atl_desc_580x450.png";
 import atlEss from "../../img/portfolio/toto_atl_ess_729x450.jpg";
 import atlWeather from "../../img/portfolio/toto_atl_weather_576x450.jpg";
 
-const RightPaneGift = () => {
+const RightPaneImg = () => {
   return (
     <div className="rightPane">
       <div>
@@ -23,4 +23,4 @@ const RightPaneGift = () => {
   );
 };
 
-export default RightPaneGift;
+export default RightPaneImg;

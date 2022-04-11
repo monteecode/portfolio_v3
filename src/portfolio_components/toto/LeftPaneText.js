@@ -1,6 +1,6 @@
 import React from "react";
 
-const LeftPaneGift = () => {
+const LeftPaneText = () => {
   const handleClick = () => {
     window.open("https://thetotoapp.herokuapp.com/");
   };
@@ -40,4 +40,4 @@ const LeftPaneGift = () => {
   );
 };
 
-export default LeftPaneGift;
+export default LeftPaneText;
