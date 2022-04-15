@@ -8,14 +8,17 @@ import timekeeperDayTime from "../../img/portfolio/timekeeper_day_time_889x500.j
 import timekeeperAddTime from "../../img/portfolio/timekeeper_add_time_769x500.jpg";
 
 const RightPaneImg = () => {
-  return (
-    <div className="rightPane">
-      <ZoomImage timeKeeperImg={timekeeperHome} />
-      <ZoomImage timeKeeperImg={timekeeperDays} />
-      <ZoomImage timeKeeperImg={timekeeperDayTime} />
-      <ZoomImage timeKeeperImg={timekeeperAddTime} />
-    </div>
-  );
+  const imgPaths = () => {
+    const paths = [
+      timekeeperHome,
+      timekeeperDays,
+      timekeeperDayTime,
+      timekeeperAddTime,
+    ];
+    const test = paths.map((path) => <ZoomImage timeKeeperImg={path} />);
+    return test;
+  };
+  return <div className="rightPane">{imgPaths()}</div>;
 };
 
 export default RightPaneImg;
