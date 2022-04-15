@@ -192,7 +192,7 @@ header {
   text-align: left;
 }
 
-.rightPane div {
+.rightPane div.imgWrapper {
   overflow: hidden;
   margin-bottom: 60px;
 }
