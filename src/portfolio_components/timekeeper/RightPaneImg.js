@@ -1,17 +1,21 @@
 import React from "react";
 import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
+import TimekeeperImages from "../../img/portfolio/imglist";
 import ZoomImage from "../ZoomImage";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import timekeeperHome from "../../img/portfolio/timekeeper_home.jpg";
 import timekeeperDays from "../../img/portfolio/timekeeper_days_868x500.jpg";
 import timekeeperDayTime from "../../img/portfolio/timekeeper_day_time_889x500.jpg";
 import timekeeperAddTime from "../../img/portfolio/timekeeper_add_time_769x500.jpg";
 
 const RightPaneImg = () => {
+  console.log(timekeeperDays);
   return (
     <div className="rightPane">
-      {/* <ZoomImage /> */}
-      <TransformWrapper
+      <ZoomImage timeKeeperImg={timekeeperHome} />
+      <ZoomImage timeKeeperImg={timekeeperDays} />
+      <ZoomImage timeKeeperImg={timekeeperDayTime} />
+      <ZoomImage timeKeeperImg={timekeeperAddTime} />
+      {/* <TransformWrapper
         defaultScale={1}
         defaultPositionX={1}
         defaultPositionY={1}
@@ -37,8 +41,8 @@ const RightPaneImg = () => {
             </div>
           </div>
         )}
-      </TransformWrapper>
-      <div>
+      </TransformWrapper> */}
+      {/* <div>
         <img src={timekeeperDays} alt="Atlanta and Atlanta Information" />
       </div>
       <div>
@@ -46,7 +50,7 @@ const RightPaneImg = () => {
       </div>
       <div>
         <img src={timekeeperAddTime} alt="Atlanta data on weather" />
-      </div>
+      </div> */}
     </div>
   );
 };
