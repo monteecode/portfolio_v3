@@ -1,6 +1,4 @@
 import React from "react";
-import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
-import TimekeeperImages from "../../img/portfolio/imglist";
 import ZoomImage from "../ZoomImage";
 import timekeeperHome from "../../img/portfolio/timekeeper_home.jpg";
 import timekeeperDays from "../../img/portfolio/timekeeper_days_868x500.jpg";
@@ -15,8 +13,10 @@ const RightPaneImg = () => {
       timekeeperDayTime,
       timekeeperAddTime,
     ];
-    const test = paths.map((path) => <ZoomImage timeKeeperImg={path} />);
-    return test;
+    const compImgPaths = paths.map((path) => (
+      <ZoomImage timeKeeperImg={path} />
+    ));
+    return compImgPaths;
   };
   return <div className="rightPane">{imgPaths()}</div>;
 };

@@ -19,25 +19,7 @@ const LeftPaneCK = (props) => {
   return (
     <div className="leftPane">
       <h1>Projects In Current Development</h1>
-      <h2>Timekeeper</h2>
-      <p>Allows a user to enter and calculate their time per day in a month</p>
-      <h3>Technolgies</h3>
-      <ul>
-        <li>React</li>
-        <li>Redux</li>
-        <li>Ruby on Rails</li>
-        <li>Postgres</li>
-      </ul>
-      <div className="projectBtns">
-        <Button
-          appLink={projectLinks.timekeeperreact.appLink}
-          name={projectLinks.timekeeperreact.name}
-        />
-        <Button
-          appLink={projectLinks.timekeeperapi.appLink}
-          name={projectLinks.timekeeperapi.name}
-        />
-      </div>
+
       <h2>Nutrimeasure</h2>
       <p>
         A user can look up how much nutrients are in a particular food item.
